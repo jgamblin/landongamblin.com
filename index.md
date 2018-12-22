@@ -1,1 +1,1 @@
-Welcome to my new website. I will add some content as soon as my room is clean. 
+Welcome to my new website. I am going to use this website to learn how to code with my dad! 
