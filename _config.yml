@@ -1,1 +1,22 @@
+title: Landon Gamblin
+description: "Taekwondo, Video Games & Books"
+url: "https://landongamblin.com"
 theme: jekyll-theme-hacker
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CODEOWNERS
+  - vendor
+  - script

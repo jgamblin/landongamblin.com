@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Script to build and test the site locally
+set -euo pipefail
+
+echo "==> Installing dependencies..."
+bundle install --quiet
+
+echo "==> Building site..."
+bundle exec jekyll build
+
+echo "==> Running HTML validation..."
+bundle exec htmlproofer _site \
+  --disable-external \
+  --allow-missing-href \
+  --allow-hash-href
+
+echo "==> All tests passed!"
