@@ -31,6 +31,7 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+          PAGES_REPO_NWO: jgamblin/landongamblin.com
 
       - name: Validate HTML
         run: |
